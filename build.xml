@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<project name="how r u veni" default="hi veni">
+  <target name="hi veni" depends = "hello krishna">
+   <echo >hi veni</echo>
+  </target>
+  <target name="hello krishna">
+    <echo> hello krishna </echo>
+  </target>
+</project>
